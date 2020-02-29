@@ -1,4 +1,4 @@
-User: plst1@chmurowiskolab.onmicrosoft.com
+User: plstX@chmurowiskolab.onmicrosoft.com
 
 1. Setup VM
 https://github.com/djkormo/k8s-AKS-primer/blob/master/install/VM/install-all.ps1
