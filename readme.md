@@ -11,3 +11,5 @@ https://github.com/djkormo/k8s-AKS-primer.git
 
 4. Add role to K8s to see the dashboard
 kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
+
+5. for i in {1..10000}; do curl -I -X GET <PUBLIC IP> | grep Server: ; echo; sleep 1; done
